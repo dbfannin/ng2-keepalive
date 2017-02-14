@@ -1,7 +1,6 @@
 # Logs
 logs
 *.log
-npm-debug.log*
 
 # Runtime data
 pids
@@ -27,7 +26,6 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
 jspm_packages
 
 # Optional npm cache directory
@@ -35,3 +33,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+
+dist
+**/node_modules
+.idea
+**/npm-debug.log*
