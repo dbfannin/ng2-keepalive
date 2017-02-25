@@ -1,6 +1,6 @@
 {
   "name": "ng2-keepalive",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Microservice Keepalive Module",
   "main": "dist/index.js",
   "scripts": {
@@ -14,20 +14,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbfannin/ng2-logger.git"
+    "url": "git+https://github.com/dbfannin/ng2-keepalive.git"
   },
   "keywords": [
     "angular2",
-    "logger",
-    "logging"
+    "keepalive",
+    "ping",
+    "session"
   ],
   "author": "David Fannin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dbfannin/ng2-logger/issues"
+    "url": "https://github.com/dbfannin/ng2-keepalive/issues"
   },
-  "typings": "./src/ng2-logger.d.ts",
-  "homepage": "https://github.com/dbfannin/ng2-logger#readme",
+  "typings": "./src/ng2-keepalive.d.ts",
+  "homepage": "https://github.com/dbfannin/ng2-keepalive#readme",
   "dependencies": {
     "@angular/common": "^2.4.7",
     "@angular/core": "^2.4.7",
@@ -35,7 +36,7 @@
     "@angular/http": "^2.4.7",
     "lodash": "^4.17.4",
     "ng2-bootstrap": "^1.3.3",
-    "ng2.logger": "^1.0.1"
+    "ng2.keepalive": "^1.0.1"
   },
   "devDependencies": {
     "@angular/compiler": "^2.4.7",
