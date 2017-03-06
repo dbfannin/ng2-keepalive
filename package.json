@@ -1,6 +1,6 @@
 {
   "name": "ng2-keepalive",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Microservice Keepalive Module",
   "main": "dist/index.js",
   "scripts": {
